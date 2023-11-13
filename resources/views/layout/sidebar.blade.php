@@ -20,7 +20,7 @@
                <li class="nav-item menu-open">
                 <ul class="nav nav-treeview">
                   <li class="nav-item">
-                    <a href="dashboard.php" class="nav-link">
+                    <a href="/" class="nav-link">
                       <i class="nav-icon fas fa-tachometer-alt"></i>
                       <p>Dashboard</p>
                     </a>
@@ -37,25 +37,9 @@
                 </a>
                 <ul class="nav nav-treeview">
                   <li class="nav-item">
-                    <a href="Aproduk.php" class="nav-link">
-                      <i class="far fa-circle nav-icon"></i>
-                      <p>Produk Array</p>
-                    </a>
-                  </li>
-                </ul>
-                <ul class="nav nav-treeview">
-                  <li class="nav-item">
-                    <a href="Rproduk.php" class="nav-link">
+                    <a href="/product" class="nav-link">
                       <i class="far fa-circle nav-icon"></i>
                       <p>Produk</p>
-                    </a>
-                  </li>
-                </ul>
-                <ul class="nav nav-treeview">
-                  <li class="nav-item">
-                    <a href="Roop.php" class="nav-link">
-                      <i class="far fa-circle nav-icon"></i>
-                      <p>Produk OOP</p>
                     </a>
                   </li>
                 </ul>

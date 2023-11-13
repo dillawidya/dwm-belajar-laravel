@@ -12,29 +12,7 @@
       </li>
     </ul>
 
-    <?php
-    date_default_timezone_set('Asia/Jakarta');
-    $now = date('Y-m-d H:i:s'); 
-    $tglTerkonversi = konversiTgl($now);
-    echo "<span class='navbar-text ml-auto'>$tglTerkonversi</span>";
-
-    function konversiTgl($tglWaktu) {
-      $hari = date('l', strtotime($tglWaktu));
-      switch($hari) {
-          case 'Sunday': $hari = 'Minggu'; break;
-          case 'Monday': $hari = 'Senin'; break;
-          case 'Tuesday': $hari = 'Selasa'; break;
-          case 'Wednesday': $hari = 'Rabu'; break;
-          case 'Thursday': $hari = 'Kamis'; break;
-          case 'Friday': $hari = 'Jumat'; break;
-          case 'Saturday': $hari = 'Sabtu'; break;
-      }
-  
-      $haribaru = date('d F Y H:i:s', strtotime($tglWaktu));
-      return "$hari, $haribaru";
-  }
-  
-    ?>
+    
 
     <!-- Right navbar links -->
     <ul class="navbar-nav ml-auto">
