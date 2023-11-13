@@ -8,6 +8,6 @@ class HomeController extends Controller
 {
     public function index()
     {
-        echo "Selamat datang";
+       return view ('home');
     }
 }
