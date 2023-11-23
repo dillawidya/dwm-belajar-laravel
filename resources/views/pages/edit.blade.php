@@ -8,7 +8,7 @@
                     <div class="card-header">
                         <div class="card-body">
                             <h3>Form Edit Produk</h3>
-                            <button type="button" class="btn btn-sm btn-warning" onclick="window.location='{{ url('products') }}'">
+                            <button type="button" class="btn btn-sm btn-warning" onclick="window.location='{{ route('hello') }}'">
                                 <i class="fas fa-arrow-left">Kembali</i>
                             </button>
                             <form action="{{ url('products/'.$product_id) }}" method="POST">

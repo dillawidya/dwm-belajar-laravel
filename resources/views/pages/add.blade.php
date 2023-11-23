@@ -39,7 +39,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label>Kode Produk</label>
-                                    <input type="text" name="product_code" class="form-control @error('product_code') is-invalid @enderror" placeholder="Kode Produk">
+                                    <input type="text" name="product_code" class="form-control @error('product_code') is-invalid @enderror" placeholder="Kode Produk" value="{{ old('product_code') }}">
                                     @error('product_code')
                                         <div class="invalid-feedback">
                                             {{ $message }}
@@ -48,7 +48,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label>Deskripsi</label>
-                                    <input type="text" name="description" class="form-control @error('description') is-invalid @enderror" placeholder="Deskripsi">
+                                    <input type="text" name="description" class="form-control @error('description') is-invalid @enderror" placeholder="Deskripsi" value="{{ old('description') }}">
                                     @error('description')
                                         <div class="invalid-feedback">
                                             {{ $message }}
@@ -57,7 +57,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label>Harga</label>
-                                    <input type="text" name="price" class="form-control @error('price') is-invalid @enderror" placeholder="Harga">
+                                    <input type="text" name="price" class="form-control @error('price') is-invalid @enderror" placeholder="Harga" value="{{ old('price') }}">
                                     @error('price')
                                         <div class="invalid-feedback">
                                             {{ $message }}
@@ -66,7 +66,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label>Satuan Unit</label>
-                                    <input type="text" name="unit" class="form-control @error('unit') is-invalid @enderror" placeholder="Satuan Unit">
+                                    <input type="text" name="unit" class="form-control @error('unit') is-invalid @enderror" placeholder="Satuan Unit" value="{{ old('unit') }}">
                                     @error('unit')
                                         <div class="invalid-feedback">
                                             {{ $message }}
@@ -75,7 +75,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label>Stok</label>
-                                    <input type="text" name="stock" class="form-control @error('stock') is-invalid @enderror" placeholder="Stok">
+                                    <input type="text" name="stock" class="form-control @error('stock') is-invalid @enderror" placeholder="Stok" value="{{ old('stock') }}">
                                     @error('stock')
                                             <div class="invalid-feedback">
                                                 {{ $message }}
